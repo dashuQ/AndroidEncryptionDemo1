@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AndroidEncryptionDemo</string>
+    <string name="rsa_encryption">RSA加密</string>
+    <string name="rsa_encryption_password">RSA加密用户密码</string>
+    <string name="aes_encryption">AES加密</string>
+    <string name="des_encryption">DES加密</string>
+    <string name="md5_encryption">MD5加密</string>
+    <string name="base64_encryption">Base64加密</string>
+    <string name="yh_encryption">异或加密</string>
+    <string name="unsupported_operation">不支持的操作</string>
+    <string name="p_i_original">请输入要加密的原文</string>
+    <string name="original">原文：</string>
+    <string name="password_original">密码原文：</string>
+    <string name="key">密钥：</string>
+    <string name="public_key">公钥：</string>
+    <string name="private_key">私钥：</string>
+    <string name="p_i_public_key">请输入公钥</string>
+    <string name="p_i_private_key">请输入私钥</string>
+    <string name="p_i_key">请输入密钥</string>
+    <string name="encryption">加密</string>
+    <string name="generate_public_private_keys">生成公钥和私钥</string>
+    <string name="is_public_private_keys">固定的公钥和私钥</string>
+    <string name="encrypted_ciphertext">加密后的密文：</string>
+    <string name="decrypted">解密</string>
+    <string name="decrypted_out_original">解密出来的原文：</string>
+    <string name="rsa_encry_password">用固定的公钥私钥加密解密用户密码</string>
+    <string name="rsa_encry_password_login">RSA加密密码后调起登录</string>
+    <string name="loading">加载中</string>
+</resources>

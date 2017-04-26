@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/rsa_encryption" />
+
+        <Button
+            android:id="@+id/btn_generate_public_private_keys"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/generate_public_private_keys" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/public_key" />
+
+            <EditText
+                android:id="@+id/et_public_key"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/private_key" />
+
+            <EditText
+                android:id="@+id/et_private_key"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/original" />
+
+            <EditText
+                android:id="@+id/et_original"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_encryption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encryption" />
+
+        <TextView
+            android:id="@+id/tv_encrypted_ciphertext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encrypted_ciphertext" />
+
+        <Button
+            android:id="@+id/btn_decrypted"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrypted" />
+
+        <TextView
+            android:id="@+id/tv_decrypted_out_original"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decrypted_out_original" />
+
+
+
+    </LinearLayout>
+</ScrollView>
